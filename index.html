@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce</title>
+
+    <link
+      rel="stylesheet"
+      href="https://electtron.netlify.app/Components/components.css"
+    />
+
+    <link rel="stylesheet" href="./app.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+      integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="navigation flex-row space-between align-center">
+      <div class="left-navigation flex-row align-center">
+        <i class="fas fa-bars hamburger" id="hamburger"></i>
+        <img src="./assets/20220206_152352.png" class="big-logo" alt="logo" />
+        <img src="./assets/20220203_122320.png" class="logo" alt="logo" />
+      </div>
+
+      <div class="right-navigation navigation-icons flex-row align-center">
+        <button class="btn btn-primary">Login</button>
+
+        <div class="badge-on-icon">
+          <i class="far fa-bookmark"></i
+          ><span class="badge badge-primary icon-badge">4</span>
+        </div>
+
+        <div class="badge-on-icon">
+          <i class="fas fa-shopping-cart"></i>
+          <span class="badge badge-primary icon-badge">4</span>
+        </div>
+      </div>
+    </nav>
+
+    <header class="banner"></header>
+
+    <div class="search flex-row align-center space-between">
+      <input type="text" placeholder="Looking for something?" />
+      <i class="fas fa-search"></i>
+    </div>
+
+    <main class="main">
+      <section class="product-list">
+        <div class="product-list-title">
+          <h3>Popular</h3>
+        </div>
+        <div
+          class="card-container flex-row align-center justify-center flex-wrap"
+        >
+          <div class="card card-shadow vertical-card">
+            <div class="card-header">
+              <span class="badge badge-primary">50%</span>
+              <img
+                src="https://cdn1.epicgames.com/epic/offer/RDR2PC1227_Epic Games_860x1148-860x1148-b4c2210ee0c3c3b843a8de399bfe7f5c.jpg?h=854&resize=1&w=640"
+                alt="Avatar"
+                class="card-image"
+              />
+            </div>
+            <div class="card-content">
+              <div class="card-title">Red Dead Redemption 2</div>
+              <div class="card-subtext">
+                <span class="cost-price">₹3,200</span
+                ><span class="selling-price">₹1,600</span>
+              </div>
+            </div>
+            <div
+              class="card-buttons flex-row justify-center align-center flex-wrap"
+            >
+              <button class="btn btn-primary text-btn">ADD TO CART</button>
+              <button class="btn btn-outline-secondary text-btn">
+                WISHLIST
+              </button>
+            </div>
+          </div>
+
+          <div class="card card-shadow vertical-card">
+            <div class="card-header">
+              <span class="badge badge-primary">50%</span>
+              <img
+                src="https://cdn1.epicgames.com/epic/offer/RDR2PC1227_Epic Games_860x1148-860x1148-b4c2210ee0c3c3b843a8de399bfe7f5c.jpg?h=854&resize=1&w=640"
+                alt="Avatar"
+                class="card-image"
+              />
+            </div>
+            <div class="card-content">
+              <div class="card-title">Red Dead Redemption 2</div>
+              <div class="card-subtext">
+                <span class="cost-price">₹3,200</span
+                ><span class="selling-price">₹1,600</span>
+              </div>
+            </div>
+            <div
+              class="card-buttons flex-row justify-center align-center flex-wrap"
+            >
+              <button class="btn btn-primary text-btn">ADD TO CART</button>
+              <button class="btn btn-outline-secondary text-btn">
+                WISHLIST
+              </button>
+            </div>
+          </div>
+
+          <div class="card card-shadow vertical-card">
+            <div class="card-header">
+              <span class="badge badge-primary">50%</span>
+              <img
+                src="https://cdn1.epicgames.com/epic/offer/RDR2PC1227_Epic Games_860x1148-860x1148-b4c2210ee0c3c3b843a8de399bfe7f5c.jpg?h=854&resize=1&w=640"
+                alt="Avatar"
+                class="card-image"
+              />
+            </div>
+            <div class="card-content">
+              <div class="card-title">Red Dead Redemption 2</div>
+              <div class="card-subtext">
+                <span class="cost-price">₹3,200</span
+                ><span class="selling-price">₹1,600</span>
+              </div>
+            </div>
+            <div
+              class="card-buttons flex-row justify-center align-center flex-wrap"
+            >
+              <button class="btn btn-primary text-btn">ADD TO CART</button>
+              <button class="btn btn-outline-secondary text-btn">
+                WISHLIST
+              </button>
+            </div>
+          </div>
+
+          <div class="card card-shadow vertical-card">
+            <div class="card-header">
+              <span class="badge badge-primary">50%</span>
+              <img
+                src="https://cdn1.epicgames.com/epic/offer/RDR2PC1227_Epic Games_860x1148-860x1148-b4c2210ee0c3c3b843a8de399bfe7f5c.jpg?h=854&resize=1&w=640"
+                alt="Avatar"
+                class="card-image"
+              />
+            </div>
+            <div class="card-content">
+              <div class="card-title">Red Dead Redemption 2</div>
+              <div class="card-subtext">
+                <span class="cost-price">₹3,200</span
+                ><span class="selling-price">₹1,600</span>
+              </div>
+            </div>
+            <div
+              class="card-buttons flex-row justify-center align-center flex-wrap"
+            >
+              <button class="btn btn-primary text-btn">ADD TO CART</button>
+              <button class="btn btn-outline-secondary text-btn">
+                WISHLIST
+              </button>
+            </div>
+          </div>
+
+          <div class="card card-shadow vertical-card">
+            <div class="card-header">
+              <span class="badge badge-primary">50%</span>
+              <img
+                src="https://cdn1.epicgames.com/epic/offer/RDR2PC1227_Epic Games_860x1148-860x1148-b4c2210ee0c3c3b843a8de399bfe7f5c.jpg?h=854&resize=1&w=640"
+                alt="Avatar"
+                class="card-image"
+              />
+            </div>
+            <div class="card-content">
+              <div class="card-title">Red Dead Redemption 2</div>
+              <div class="card-subtext">
+                <span class="cost-price">₹3,200</span
+                ><span class="selling-price">₹1,600</span>
+              </div>
+            </div>
+            <div
+              class="card-buttons flex-row justify-center align-center flex-wrap"
+            >
+              <button class="btn btn-primary text-btn">ADD TO CART</button>
+              <button class="btn btn-outline-secondary text-btn">
+                WISHLIST
+              </button>
+            </div>
+          </div>
+
+          <div class="card card-shadow vertical-card">
+            <div class="card-header">
+              <span class="badge badge-primary">50%</span>
+              <img
+                src="https://cdn1.epicgames.com/epic/offer/RDR2PC1227_Epic Games_860x1148-860x1148-b4c2210ee0c3c3b843a8de399bfe7f5c.jpg?h=854&resize=1&w=640"
+                alt="Avatar"
+                class="card-image"
+              />
+            </div>
+            <div class="card-content">
+              <div class="card-title">Red Dead Redemption 2</div>
+              <div class="card-subtext">
+                <span class="cost-price">₹3,200</span
+                ><span class="selling-price">₹1,600</span>
+              </div>
+            </div>
+            <div
+              class="card-buttons flex-row justify-center align-center flex-wrap"
+            >
+              <button class="btn btn-primary text-btn">ADD TO CART</button>
+              <button class="btn btn-outline-secondary text-btn">
+                WISHLIST
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
