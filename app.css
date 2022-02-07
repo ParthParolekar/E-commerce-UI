@@ -1,5 +1,6 @@
-@import "./CSS/navbar/navbar.css";
-@import "./CSS/homepage/homepage.css";
+@import "./Components/navbar/navbar.css";
+@import "./Components/homepage/homepage.css";
+@import "./Components/authentication/authentication.css";
 
 * {
   margin: 0;

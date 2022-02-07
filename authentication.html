@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce</title>
+
+    <link
+      rel="stylesheet"
+      href="https://electtron.netlify.app/Components/components.css"
+    />
+
+    <link rel="stylesheet" href="./app.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+      integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="navigation flex-row space-between align-center">
+      <div class="left-navigation flex-row align-center">
+        <i class="fas fa-bars hamburger" id="hamburger"></i>
+        <img src="./assets/20220206_152352.png" class="big-logo" alt="logo" />
+        <img src="./assets/20220203_122320.png" class="logo" alt="logo" />
+      </div>
+
+      <div
+        class="right-navigation navigation-icons flex-row align-center"
+      ></div>
+    </nav>
+
+    <div class="auth-component card-shadow">
+      <div class="auth-pages" id="auth-pages">
+        <div class="auth-page login-page">
+          <h2>Login</h2>
+
+          <form>
+            <div class="input">
+              <label for="">Email</label>
+              <input type="email" name="" id="" />
+            </div>
+            <div class="input">
+              <label for="">Password</label>
+              <input type="password" name="" id="" />
+            </div>
+          </form>
+
+          <button class="btn btn-link">
+            <a href="#" class="link">Forgot Password?</a>
+          </button>
+
+          <button class="btn btn-primary">Login</button>
+
+          <button class="btn btn-link" id="btn-to-signup">
+            <a href="#" class="link">Don't have an account? Sign Up</a>
+          </button>
+        </div>
+
+        <div class="auth-page signup-page">
+          <h2>Sign Up</h2>
+
+          <form>
+            <div class="input">
+              <label for="">Username</label>
+              <input type="text" name="" id="" />
+            </div>
+            <div class="input">
+              <label for="">Email</label>
+              <input type="email" name="" id="" />
+            </div>
+            <div class="input">
+              <label for="">New Password</label>
+              <input type="password" name="" id="" />
+            </div>
+          </form>
+
+          <button class="btn btn-primary">Sign-Up</button>
+
+          <button class="btn btn-link" id="btn-to-login">
+            <a href="#" class="link">Already have an account? Log In</a>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./Components/authentication/authentication.js"></script>
+  </body>
+</html>
