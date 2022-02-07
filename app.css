@@ -1,0 +1,15 @@
+@import "./CSS/navbar/navbar.css";
+@import "./CSS/homepage/homepage.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--secondary);
+  font-family: "Montserrat", sans-serif;
+  color: var(--white);
+  overflow-x: hidden;
+}

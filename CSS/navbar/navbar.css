@@ -1,0 +1,40 @@
+.navigation {
+  margin: 0 auto;
+  width: 100vw;
+  height: 5rem;
+}
+
+.badge-on-icon {
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+.badge-on-icon i:hover {
+  color: var(--primary);
+}
+
+.big-logo {
+  display: none;
+}
+
+.logo {
+  height: 3rem;
+  margin-left: 2rem;
+}
+
+.hamburger {
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+@media only screen and (min-width: 720px) {
+  .big-logo {
+    display: block;
+    height: 5rem;
+    margin-left: 2rem;
+  }
+
+  .logo {
+    display: none;
+  }
+}
