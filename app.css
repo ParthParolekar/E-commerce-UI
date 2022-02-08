@@ -1,11 +1,21 @@
 @import "./Components/navbar/navbar.css";
 @import "./Components/homepage/homepage.css";
 @import "./Components/authentication/authentication.css";
+@import "./Components/product/product.css";
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.nav-links a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: var(--off-white);
 }
 
 body {
