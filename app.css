@@ -2,6 +2,7 @@
 @import "./Components/homepage/homepage.css";
 @import "./Components/authentication/authentication.css";
 @import "./Components/product/product.css";
+@import "./Components/wishlist/wishlist.css";
 
 * {
   margin: 0;

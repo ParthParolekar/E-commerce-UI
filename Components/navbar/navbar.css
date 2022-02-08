@@ -7,6 +7,7 @@
 .badge-on-icon {
   margin: 0 0.5rem;
   cursor: pointer;
+  color: white;
 }
 
 .badge-on-icon i:hover {
@@ -23,8 +24,35 @@
 }
 
 .hamburger {
+  display: block;
   cursor: pointer;
   font-size: 2rem;
+}
+
+.nav-links {
+  position: absolute;
+  left: 0;
+  right: 0;
+  /* top: -180px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+  background-color: var(--primary);
+  z-index: 1;
+  transition: 0.3s all;
+}
+
+.nav-links a {
+  margin: 0 1rem;
+}
+
+.nav-links-not-visible {
+  top: -180px;
+}
+
+.nav-links-visible {
+  top: 5rem;
 }
 
 @media only screen and (min-width: 720px) {
@@ -32,6 +60,18 @@
     display: block;
     height: 5rem;
     margin-left: 2rem;
+  }
+
+  #hamburger {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: transparent;
+    top: initial;
   }
 
   .logo {
