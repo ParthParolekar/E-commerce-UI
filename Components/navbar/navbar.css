@@ -48,11 +48,11 @@
 }
 
 .nav-links-not-visible {
-  top: -180px;
+  transform: translateY(-180px);
 }
 
 .nav-links-visible {
-  top: 5rem;
+  transform: translateY(6rem);
 }
 
 @media only screen and (min-width: 720px) {
@@ -62,7 +62,7 @@
     margin-left: 2rem;
   }
 
-  .hamburger {
+  #hamburger {
     display: none;
   }
 
@@ -71,7 +71,7 @@
     align-items: center;
     position: relative;
     background-color: transparent;
-    top: initial;
+    transform: translateY(0);
   }
 
   .logo {
